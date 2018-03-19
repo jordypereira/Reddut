@@ -1,0 +1,19 @@
+a.post{
+  color: $link;
+  h3{
+    color: $brand-primary;
+  }
+  &:visited{
+    text-decoration: none;
+    // color: $link-visited;
+
+  }
+  &:hover{
+    text-decoration: none;
+    color: $link-hover;
+  }
+}
+
+.post{
+  background-color: $post-bgc;
+}

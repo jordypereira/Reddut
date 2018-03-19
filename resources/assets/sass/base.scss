@@ -1,0 +1,8 @@
+.body{
+  min-height: calc(100vh - (50px + 1px + 22px) - (120px + 1px));
+}
+
+.sticky{
+  background-color: $post-bgc;
+  border-color: #F7CA18;
+}

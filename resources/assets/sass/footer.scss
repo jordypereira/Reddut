@@ -1,0 +1,19 @@
+footer{
+  background-color: $footerbgc;
+  border-top: 1px solid $footerbdc;
+  .container{
+    &:before, &:after{
+      content: none;
+    }
+    min-height: 120px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .column{
+      padding: 10px 10px 0px 5px;
+    }
+  }
+}
